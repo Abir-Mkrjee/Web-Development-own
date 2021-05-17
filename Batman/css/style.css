@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.8;
+  background: url("../images/bat1.jpg");
+  transition: all 2s ease-in;
+}
+
+.container {
+  width: 60%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 35rem;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3), 0px 0px 60px rgba(0, 0, 0, 0.3);
+}
+
+.batman {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.batman img {
+  width: 26rem;
+  z-index: 2;
+  transition: all 0.76s ease-out;
+}
+
+.circle {
+  width: 16rem;
+  height: 16rem;
+  background-image: linear-gradient(to right, rgba(41, 103, 184, 0.5), #060c0b);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.info h1 {
+  font-size: 2rem;
+  transition: all 0.76s ease-out;
+}
+
+.info h3 {
+  font-size: 1.6rem;
+  padding: 2rem 0rem;
+  color: #22c4ec;
+  font-weight: lighter;
+  transition: all 0.76s ease-out;
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.76s ease-out;
+}
+
+.sizes button {
+  padding: 0.6rem 1.3rem;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  cursor: pointer;
+  color: #62bcd3;
+}
+
+button.active {
+  background: #8f6868;
+  color: white;
+}
+
+button.Dark {
+  background: #8f6868;
+  color: white;
+}
+
+button.Wise {
+  background: #8f6868;
+  color: white;
+}
+
+button.next {
+  background: #8f6868;
+  color: white;
+}
+
+.purchase {
+  margin-top: 1rem;
+}
+
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: rgba(41, 103, 184, 0.5);
+  border: none;
+  color: rgba(250, 255, 255, 0.959);
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
+  transition: all 0.76s ease-out;
+}/*# sourceMappingURL=style.css.map */
