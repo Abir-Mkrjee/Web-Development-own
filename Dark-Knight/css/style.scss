@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(5, 8, 37);
+    //color: rgb(32, 47, 180);
     font-family: 'Poppins', sans-serif;
 }
 
 .container{
     height: 100vh;
     
+    h2{
+        color: darkslategray;
+    }
     
 }
 
@@ -18,7 +21,20 @@ nav{
     padding: 3rem 10rem;
     justify-content: space-between;
     width: 100%;
+   
 }
+
+nav h4{
+  color: cornflowerblue;
+
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+    list-style: none;
+}
+
 .container img{
     width: 100%;
     position: absolute;
@@ -36,12 +52,33 @@ nav{
 
 .content{
     width: 100%;
-    background: rgb(0, 0, 0);
+    background: rgb(7, 7, 7);
     min-height: 100vh;
     z-index: 2;
     position: absolute;
     background-image: url("../images/bat2.jpg");
+        h4{
+            color: white;
+            font-style: oblique;
+        }
+        h3{
+            color: white;
+        }
+       
+           
+            p{
+                color: rgb(25, 247, 247);
+            }
+        
 }
+
+.text-style{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 80%;
+}
+
 .content-images{
     display: flex;
     justify-content: space-around;
